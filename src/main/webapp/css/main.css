@@ -1,0 +1,46 @@
+/* 
+    Created on : 09/06/2016, 00:27:12
+    Author     : Tobias de Sampaio Cavichioli
+*/
+
+.content {
+    padding: 0px 10px 0px 10px;
+    margin: 10px auto 10px auto;
+    overflow: hidden;
+}
+
+.person {
+    margin: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+    height: 300px;
+}
+
+.name {
+    font-family: "Sans-serif";
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.info p {
+   font-family: "Sans-serif";
+   font-size: 14px;
+}
+@media screen and (min-width: 480px) {
+    .content {
+        width: 450px;
+    }
+    .person {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .content {
+        width: 1890px;
+    }
+    .person {
+        width: 20%;
+        height: 150px;
+    }
+}
+
